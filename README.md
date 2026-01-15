@@ -1,7 +1,10 @@
-<img width="2531" height="1363" alt="image" src="https://github.com/user-attachments/assets/f5dfdd96-7471-47c9-a292-a236ff754a94" /><img width="2531" height="1363" alt="image" src="https://github.com/user-attachments/assets/38940aea-14d8-4229-bc63-cdec15b745aa" /># Multi-source Remote Sensing Small Target Detection System
+# Multi-source Remote Sensing Small Target Detection System
 # 多源遥感小目标检测系统
 
 本项目是一款针对遥感影像设计的高性能小目标检测系统。系统采用前后端分离架构，集成了 RT-DETR、YOLO 系列算法与 SAHI (Slicing Aided Hyper Inference) 切片推理技术，能够有效解决遥感图像中目标微小、背景复杂、尺度变化剧烈等检测难题。
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/89e5d088-8a94-4590-994f-f2f1e6f0fa5d" />
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/0731f07a-e843-479c-9aa4-624aa2174dac" />
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/1831c901-58c1-4ac5-ac98-482c5ca47068" />
 
 ## ✨ 核心特性
 

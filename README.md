@@ -1,7 +1,7 @@
-# Multi-source Remote Sensing Small Target Detection System
+<img width="2531" height="1363" alt="image" src="https://github.com/user-attachments/assets/f5dfdd96-7471-47c9-a292-a236ff754a94" /><img width="2531" height="1363" alt="image" src="https://github.com/user-attachments/assets/38940aea-14d8-4229-bc63-cdec15b745aa" /># Multi-source Remote Sensing Small Target Detection System
 # 多源遥感小目标检测系统
 
-本项目是一款针对遥感影像设计的高性能小目标检测系统。系统采用前后端分离架构，集成了 YOLO 系列算法与 SAHI (Slicing Aided Hyper Inference) 切片推理技术，能够有效解决遥感图像中目标微小、背景复杂、尺度变化剧烈等检测难题。
+本项目是一款针对遥感影像设计的高性能小目标检测系统。系统采用前后端分离架构，集成了 RT-DETR、YOLO 系列算法与 SAHI (Slicing Aided Hyper Inference) 切片推理技术，能够有效解决遥感图像中目标微小、背景复杂、尺度变化剧烈等检测难题。
 
 ## ✨ 核心特性
 
@@ -9,7 +9,7 @@
 * 前后端分离架构：
     * 后端：基于 FastAPI 异步框架，提供高性能模型推理 API。
     * 前端：基于 Streamlit 构建，支持实时图像上传、参数调节及结果可视化。
-* 模型兼容性：支持 Ultralytics YOLO 权重，可灵活更换自定义训练的模型。
+* 模型兼容性：支持 Ultralytics RT-DETR YOLO 权重，可灵活更换自定义训练的模型。
 * 可视化分析：支持置信度筛选，自动统计检测目标类别与数量。
 
 ## 📂 项目结构
